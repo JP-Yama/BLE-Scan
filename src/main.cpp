@@ -97,7 +97,7 @@ void setup() {
   pBLEScan->setInterval(100);
   pBLEScan->setWindow(99);
 
-  //Printa a apresentação e escolhas para o usuário, além de recolher informações
+  //Printa a apresentação e escolhas para o usuário, além de recolher informações a
     cout 
     << "\n\n\n"
     << "####################################"
