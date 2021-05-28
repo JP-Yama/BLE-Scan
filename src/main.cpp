@@ -87,7 +87,7 @@
 
 void setup() {
   //inicio:   //Guarda o lugar de inicio do código
-  int J;    //Variável referente a escolha do usuário
+  //int J;    //Variável referente a escolha do usuário
   Serial.begin(115200);   //Inicia a Serial
 
   BLEDevice::init("");
