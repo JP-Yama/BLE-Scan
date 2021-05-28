@@ -86,8 +86,8 @@
   };
 
 void setup() {
-  //inicio:   //Guarda o lugar de inicio do código
-  //int J;    //Variável referente a escolha do usuário
+  inicio:   //Guarda o lugar de inicio do código
+  int J;    //Variável referente a escolha do usuário
   Serial.begin(115200);   //Inicia a Serial
 
   BLEDevice::init("");
@@ -97,7 +97,7 @@ void setup() {
   pBLEScan->setInterval(100);
   pBLEScan->setWindow(99);
 
-  //Printa a apresentação e escolhas para o usuário, além de recolher informações a
+  //Printa a apresentação e escolhas para o usuário, além de recolher informações
     cout 
     << "\n\n\n"
     << "####################################"
@@ -106,7 +106,7 @@ void setup() {
     << "\nDigite o numero referente ao tipo de beacon a ser procurado:"
     << "\n     1 - IBeacon, 2 - AltBeacon, 3- Eddystone" << endl;
 
-    /*cin >> J;
+    cin >> J;
     delay (10000);
 
     if (J==1){
@@ -129,7 +129,7 @@ void setup() {
       cout <<"Não foram Fornecidas as informações nescessárias. reiniciando...";
       goto inicio;
 
-    }*/
+    }
 }
 void loop() {
 
