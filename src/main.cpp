@@ -106,9 +106,9 @@ void setup() {
     << "\nDigite o numero referente ao tipo de beacon a ser procurado:"
     << "\n     1 - IBeacon, 2 - AltBeacon, 3- Eddystone" << endl;
 
-    cin >> J;
+   /* cin >> J;
     delay (10000);
-
+sd
     if (J==1){
       IB=1;
     }
@@ -129,7 +129,7 @@ void setup() {
       cout <<"Não foram Fornecidas as informações nescessárias. reiniciando...";
       goto inicio;
 
-    }
+    }*/
 }
 void loop() {
 
